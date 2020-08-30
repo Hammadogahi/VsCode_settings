@@ -1,0 +1,35 @@
+{
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "600",
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+  "workbench.statusBar.visible": false,
+  "files.autoSave": "off",
+  "editor.fontSize": 18,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "One Monokai",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "punctuation.definition.comment",
+          "variable.language",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
+}
